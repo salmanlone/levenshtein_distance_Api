@@ -4618,8 +4618,8 @@
     },
     "AlgorithmApi.LevenshteinDistance/1.0.0": {
       "type": "project",
-      "path": "../LevenshteinDistance/AlgorithmApi.LevenshteinDistance.csproj",
-      "msbuildProject": "../LevenshteinDistance/AlgorithmApi.LevenshteinDistance.csproj"
+      "path": "../AlgorithmApi.LevenshteinDistance/AlgorithmApi.LevenshteinDistance.csproj",
+      "msbuildProject": "../AlgorithmApi.LevenshteinDistance/AlgorithmApi.LevenshteinDistance.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4656,8 +4656,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\git\\levenshtein_distance_Api\\LevenshteinDistance\\AlgorithmApi.LevenshteinDistance.csproj": {
-              "projectPath": "D:\\git\\levenshtein_distance_Api\\LevenshteinDistance\\AlgorithmApi.LevenshteinDistance.csproj"
+            "D:\\git\\levenshtein_distance_Api\\AlgorithmApi.LevenshteinDistance\\AlgorithmApi.LevenshteinDistance.csproj": {
+              "projectPath": "D:\\git\\levenshtein_distance_Api\\AlgorithmApi.LevenshteinDistance\\AlgorithmApi.LevenshteinDistance.csproj"
             }
           }
         }
