@@ -1,0 +1,16 @@
+D:\git\levenshtein_distance_Api\LevenshteinDistance\bin\Debug\netcoreapp3.1\LevenshteinDistance.exe
+D:\git\levenshtein_distance_Api\LevenshteinDistance\bin\Debug\netcoreapp3.1\LevenshteinDistance.deps.json
+D:\git\levenshtein_distance_Api\LevenshteinDistance\bin\Debug\netcoreapp3.1\LevenshteinDistance.runtimeconfig.json
+D:\git\levenshtein_distance_Api\LevenshteinDistance\bin\Debug\netcoreapp3.1\LevenshteinDistance.runtimeconfig.dev.json
+D:\git\levenshtein_distance_Api\LevenshteinDistance\bin\Debug\netcoreapp3.1\LevenshteinDistance.dll
+D:\git\levenshtein_distance_Api\LevenshteinDistance\bin\Debug\netcoreapp3.1\LevenshteinDistance.pdb
+D:\git\levenshtein_distance_Api\LevenshteinDistance\bin\Debug\netcoreapp3.1\Contracts.dll
+D:\git\levenshtein_distance_Api\LevenshteinDistance\bin\Debug\netcoreapp3.1\Contracts.pdb
+D:\git\levenshtein_distance_Api\LevenshteinDistance\obj\Debug\netcoreapp3.1\LevenshteinDistance.csprojAssemblyReference.cache
+D:\git\levenshtein_distance_Api\LevenshteinDistance\obj\Debug\netcoreapp3.1\LevenshteinDistance.AssemblyInfoInputs.cache
+D:\git\levenshtein_distance_Api\LevenshteinDistance\obj\Debug\netcoreapp3.1\LevenshteinDistance.AssemblyInfo.cs
+D:\git\levenshtein_distance_Api\LevenshteinDistance\obj\Debug\netcoreapp3.1\LevenshteinDistance.csproj.CoreCompileInputs.cache
+D:\git\levenshtein_distance_Api\LevenshteinDistance\obj\Debug\netcoreapp3.1\LevenshteinDistance.csproj.CopyComplete
+D:\git\levenshtein_distance_Api\LevenshteinDistance\obj\Debug\netcoreapp3.1\LevenshteinDistance.dll
+D:\git\levenshtein_distance_Api\LevenshteinDistance\obj\Debug\netcoreapp3.1\LevenshteinDistance.pdb
+D:\git\levenshtein_distance_Api\LevenshteinDistance\obj\Debug\netcoreapp3.1\LevenshteinDistance.genruntimeconfig.cache
