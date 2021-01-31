@@ -29,5 +29,15 @@ Swagger is integrated with this API so when running the project it will open swa
 
 Security key is also provided in appSettings.json file.
 
+## Return
+```
+{
+FirstInput :string,
+SecondInput :string,
+Distance :int,
+Matrix :int[,]
+}
+```
+
 ## Testing
 Unit test project is also included. For running the test cases, go to test project and run tests in Test Explorer.
