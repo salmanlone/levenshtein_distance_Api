@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hU8rzl8H6+h4U0/NfVelm68NOYMnsR7iLkThjyU2IU31t5EZyWBOsvgYz4pZBlQhg5gkKkuuV9Fb/HmL/0Ehsw==",
+  "dgSpecHash": "lOR9rZCjZN/FhtxsLHQEG9Qtby3Vx0K2Lac6ecmLTj6p+hbsc/2IloEyFGiGWuZjXwGUrkkKqF0VMqza8yXrgA==",
   "success": true,
   "projectFilePath": "D:\\git\\levenshtein_distance_Api\\LevenshteinDistanceApi\\AlgorithmApi.csproj",
   "expectedPackageFiles": [

@@ -23,3 +23,4 @@ D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netco
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.dll
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.pdb
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.genruntimeconfig.cache
+D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.csprojAssemblyReference.cache

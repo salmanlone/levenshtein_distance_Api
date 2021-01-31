@@ -26,6 +26,7 @@
         "dependencies": {
           "AlgorithmApi.LevenshteinDistance": "1.0.0",
           "AlgorithmApi.Utilities": "1.0.0",
+          "Microsoft.AspNetCore.Cors": "2.2.0",
           "Newtonsoft.Json": "12.0.3",
           "Microsoft.AspNetCore.Antiforgery.Reference": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "3.1.0.0",

@@ -28,6 +28,7 @@ namespace AlgorithmApi
 			services.AddControllers();
 			services.InjectSwaggerServices(API_NAME, Configuration);
 			services.InjectAPIKeyService();
+			services.AddCors();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -39,6 +40,7 @@ namespace AlgorithmApi
 			}
 			app.UseSwaggerMiddleware(API_NAME, config);
 
+			app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
 			app.UseRouting();
 
