@@ -1,6 +1,7 @@
 ﻿using AlgorithmApi.LevenshteinDistance.Contracts;
 using AlgorithmApi.Utilities.APIKey;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 
 namespace AlgorithmApi.Controllers
 {
@@ -19,10 +20,10 @@ namespace AlgorithmApi.Controllers
 		[APIKeyValidationFilter("secretKey")]
 		public ActionResult Get(string first, string second, [FromHeader] string secretKey)
 		{
-			var result = _levenshteinDistance.ComputeLevenshteinDistance(first, second);
-			if (result == -1)
+			var result = _levenshteinDistance.LevenshteinDistanceValue(first, second);
+			if (result == null)
 				return BadRequest();
-			return Ok(result);
+			return Ok(JsonConvert.SerializeObject(result));
 		}
 	}
 }
