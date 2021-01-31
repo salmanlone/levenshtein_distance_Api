@@ -35,7 +35,7 @@ Security key is also provided in appSettings.json file.
 FirstInput :string,
 SecondInput :string,
 Distance :int,
-Matrix :int[,]
+Matrix :Object[,]
 }
 ```
 
