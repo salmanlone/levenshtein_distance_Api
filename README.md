@@ -24,9 +24,9 @@ Swagger is integrated with this API so when running the project it will open swa
 - Security Key
 
 ## Security Key
-
-**0f44443b-bb32-4d37-9f27-082cec554b6a**
-
+```
+0f44443b-bb32-4d37-9f27-082cec554b6a
+```
 Security key is also provided in appSettings.json file.
 
 ## Return
