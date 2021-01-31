@@ -1,7 +1,9 @@
-﻿namespace AlgorithmApi.LevenshteinDistance.Contracts
+﻿using AlgorithmApi.LevenshteinDistance.Models;
+
+namespace AlgorithmApi.LevenshteinDistance.Contracts
 {
 	public interface ILevenshteinDistance
 	{
-		int ComputeLevenshteinDistance(string first, string second);
+		LevenshteinDistanceModel LevenshteinDistanceValue(string first, string second);
 	}
 }

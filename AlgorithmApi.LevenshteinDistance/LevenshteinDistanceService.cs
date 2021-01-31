@@ -1,5 +1,6 @@
 ﻿using System;
 using AlgorithmApi.LevenshteinDistance.Contracts;
+using AlgorithmApi.LevenshteinDistance.Models;
 
 namespace AlgorithmApi.LevenshteinDistance
 {
@@ -10,24 +11,30 @@ namespace AlgorithmApi.LevenshteinDistance
 
 		}
 
-		public int ComputeLevenshteinDistance(string first, string second)
+		public LevenshteinDistanceModel LevenshteinDistanceValue(string first, string second)
 		{
-			return Compute(first, second);
+			return ComputeDistance(first, second);
 		}
 
-		private int Compute(string first, string second)
+		private LevenshteinDistanceModel ComputeDistance(string first, string second)
 		{
-			if (string.IsNullOrEmpty(first) && string.IsNullOrEmpty(second)) return -1;
+			if (string.IsNullOrEmpty(first) && string.IsNullOrEmpty(second)) return null;
 
-			if (string.IsNullOrEmpty(first)) return second.Length;
+			if (string.IsNullOrEmpty(first)) first = "";
 
-			if (string.IsNullOrEmpty(second)) return first.Length;
+			if (string.IsNullOrEmpty(second)) second = "";
 
 			int[,] d = CreateMatrix(first, second);
 
 			FillUpMatrix(first, second, d);
 
-			return d[first.Length, second.Length];
+			return new LevenshteinDistanceModel()
+			{
+				FirstInput = first,
+				SecondInput = second,
+				Distance = d[first.Length, second.Length],
+				Matrix = d
+			};
 		}
 
 		private static int[,] CreateMatrix(string first, string second)

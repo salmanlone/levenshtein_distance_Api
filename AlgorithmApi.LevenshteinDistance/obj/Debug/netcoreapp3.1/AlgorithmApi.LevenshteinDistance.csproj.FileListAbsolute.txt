@@ -17,7 +17,6 @@ D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\bin\Debug\netco
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\bin\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.runtimeconfig.dev.json
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\bin\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.dll
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\bin\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.pdb
-D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.csprojAssemblyReference.cache
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.AssemblyInfoInputs.cache
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.AssemblyInfo.cs
 D:\git\levenshtein_distance_Api\AlgorithmApi.LevenshteinDistance\obj\Debug\netcoreapp3.1\AlgorithmApi.LevenshteinDistance.csproj.CoreCompileInputs.cache
