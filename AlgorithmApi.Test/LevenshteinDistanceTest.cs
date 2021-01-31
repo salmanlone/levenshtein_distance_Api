@@ -1,4 +1,5 @@
 using AlgorithmApi.LevenshteinDistance;
+using AlgorithmApi.LevenshteinDistance.Models;
 using NUnit.Framework;
 
 namespace AlgorithmApi.Test
@@ -19,38 +20,45 @@ namespace AlgorithmApi.Test
 		}
 
 		[Test]
-		public void Correct()
+		public void CorrectObject()
 		{
-			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, second);
-			Assert.AreEqual(result, 5);
+			var result = levenshteinDistanceService.LevenshteinDistanceValue(first, second);
+			Assert.IsInstanceOf<LevenshteinDistanceModel>(result);
 		}
 
 		[Test]
-		public void InCorrect()
+		public void CorrectValue()
+		{
+			var result = levenshteinDistanceService.LevenshteinDistanceValue(first, second);
+			Assert.AreEqual(result.Distance, 5);
+		}
+
+		[Test]
+		public void InCorrectValue()
 		{ 
-			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, second);
-			Assert.AreNotEqual(result, 1);
+			var result = levenshteinDistanceService.LevenshteinDistanceValue(first, second);
+			Assert.AreNotEqual(result.Distance, 1);
 		}
 
 		[Test]
-		public void Negative()
+		public void NullObject()
 		{
-			var result = levenshteinDistanceService.ComputeLevenshteinDistance("", "");
-			Assert.Negative(result, "Both inputs are null");
+			var result = levenshteinDistanceService.LevenshteinDistanceValue("", "");
+			Assert.IsNull(result, "Both inputs are null");
 		}
 
 		[Test]
 		public void FirstInputLength()
 		{
-			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, "");
-			Assert.AreEqual(result, first.Length);
+			var result = levenshteinDistanceService.LevenshteinDistanceValue(first, "");
+			Assert.AreEqual(result.Distance, first.Length);
 		}
 
 		[Test]
 		public void SecondInputLength()
 		{
-			var result = levenshteinDistanceService.ComputeLevenshteinDistance("", second);
-			Assert.AreEqual(result, second.Length);
+			var result = levenshteinDistanceService.LevenshteinDistanceValue("", second);
+			Assert.AreEqual(result.Distance, second.Length);
 		}
 	}
 }
