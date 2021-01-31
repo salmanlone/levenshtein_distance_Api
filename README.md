@@ -35,9 +35,26 @@ Security key is also provided in appSettings.json file.
 FirstInput :string,
 SecondInput :string,
 Distance :int,
-Matrix :int[,]
+Matrix :Object[,]
 }
 ```
+## Postman
+- Create Post request for https://localhost:44396/compute
+
+##### Headers
+```
+secretKey: 0f44443b-bb32-4d37-9f27-082cec554b6a
+Content-Type: application/json
+```
+
+##### Body
+```
+{
+    "FirstInput":"salman",
+    "SecondInput":"lone"
+}
+```
+
 
 ## Testing
 Unit test project is also included. For running the test cases, go to test project and run tests in Test Explorer.
