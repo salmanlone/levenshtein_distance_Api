@@ -24,7 +24,7 @@ namespace AlgorithmApi.LevenshteinDistance
 
 			if (string.IsNullOrEmpty(second)) second = "";
 
-			int[,] d = CreateMatrix(first, second);
+			Object[,] d = CreateMatrix(first, second);
 
 			FillUpMatrix(first, second, d);
 
@@ -32,38 +32,51 @@ namespace AlgorithmApi.LevenshteinDistance
 			{
 				FirstInput = first,
 				SecondInput = second,
-				Distance = d[first.Length, second.Length],
+				Distance = Convert.ToInt32(d[first.Length, second.Length]),
 				Matrix = d
 			};
 		}
 
-		private static int[,] CreateMatrix(string first, string second)
+		private static Object[,] CreateMatrix(string first, string second)
 		{
-			var d = new int[first.Length + 1, second.Length + 1];
+			char[] firstInputArray = first.ToCharArray();
+			char[] secondInputArray = second.ToCharArray();
+
+			var d = new Object[first.Length + 2, second.Length + 2];
+
+			for (var i = 0; i < second.Length; i++)
+			{
+				d[0, i+2] = secondInputArray[i].ToString();
+			}
+
+			for (var j = 0; j < first.Length; j++)
+			{
+				d[j+2, 0] = firstInputArray[j].ToString();
+			}
 
 			for (var i = 0; i <= first.Length; i++)
 			{
-				d[i, 0] = i;
+				d[i+1, 1] = i;
 			}
 
 			for (var j = 0; j <= second.Length; j++)
 			{
-				d[0, j] = j;
+				d[1, j+1] = j;
 			}
 
 			return d;
 		}
 
-		private void FillUpMatrix(string first, string second, int[,] d)
+		private void FillUpMatrix(string first, string second, Object[,] d)
 		{
-			for (var i = 1; i <= first.Length; i++)
+			for (var i = 2; i <= first.Length+1; i++)
 			{
-				for (var j = 1; j <= second.Length; j++)
+				for (var j = 2; j <= second.Length+1; j++)
 				{
-					if (second[j - 1] == first[i - 1])
+					if (second[j - 2] == first[i - 2])
 						d[i, j] = d[i - 1, j - 1];
 					else
-						d[i, j] = Min(d[i - 1, j], d[i, j - 1], d[i - 1, j - 1]) + 1;
+						d[i, j] = Min((int)d[i - 1, j], (int)d[i, j - 1], (int)d[i - 1, j - 1]) + 1;
 				}
 			}
 		}

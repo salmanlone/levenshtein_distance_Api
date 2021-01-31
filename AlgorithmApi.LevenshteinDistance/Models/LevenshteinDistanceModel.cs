@@ -1,4 +1,6 @@
-﻿namespace AlgorithmApi.LevenshteinDistance.Models
+﻿using System;
+
+namespace AlgorithmApi.LevenshteinDistance.Models
 {
 	public class LevenshteinDistanceModel
 	{
@@ -8,6 +10,6 @@
 
 		public int Distance { get; set; }
 
-		public int[,] Matrix { get; set; }
+		public Object[,] Matrix { get; set; }
 	}
 }
