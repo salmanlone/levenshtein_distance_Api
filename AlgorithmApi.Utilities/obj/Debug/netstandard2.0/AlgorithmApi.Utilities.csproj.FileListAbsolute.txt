@@ -1,9 +1,9 @@
+D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\bin\Debug\netstandard2.0\AlgorithmApi.Utilities.deps.json
+D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\bin\Debug\netstandard2.0\AlgorithmApi.Utilities.dll
+D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\bin\Debug\netstandard2.0\AlgorithmApi.Utilities.pdb
 D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\obj\Debug\netstandard2.0\AlgorithmApi.Utilities.csprojAssemblyReference.cache
 D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\obj\Debug\netstandard2.0\AlgorithmApi.Utilities.AssemblyInfoInputs.cache
 D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\obj\Debug\netstandard2.0\AlgorithmApi.Utilities.AssemblyInfo.cs
 D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\obj\Debug\netstandard2.0\AlgorithmApi.Utilities.csproj.CoreCompileInputs.cache
-D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\bin\Debug\netstandard2.0\AlgorithmApi.Utilities.deps.json
-D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\bin\Debug\netstandard2.0\AlgorithmApi.Utilities.dll
-D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\bin\Debug\netstandard2.0\AlgorithmApi.Utilities.pdb
 D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\obj\Debug\netstandard2.0\AlgorithmApi.Utilities.dll
 D:\git\levenshtein_distance_Api\AlgorithmApi.Utilities\obj\Debug\netstandard2.0\AlgorithmApi.Utilities.pdb

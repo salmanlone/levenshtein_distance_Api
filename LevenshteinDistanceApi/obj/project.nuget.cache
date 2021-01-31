@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Tqj8ExPIc6MK3aH97bxgGKB0XT1yaw84tnghu0ErF+u2MJLNEeYZi473y4XktEvWnD6s9/DyTcKV4jvRrqEyZg==",
+  "dgSpecHash": "hU8rzl8H6+h4U0/NfVelm68NOYMnsR7iLkThjyU2IU31t5EZyWBOsvgYz4pZBlQhg5gkKkuuV9Fb/HmL/0Ehsw==",
   "success": true,
   "projectFilePath": "D:\\git\\levenshtein_distance_Api\\LevenshteinDistanceApi\\AlgorithmApi.csproj",
   "expectedPackageFiles": [
@@ -101,7 +101,7 @@
     "C:\\Users\\slone\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\slone\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\slone\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
-    "C:\\Users\\slone\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\slone\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\slone\\.nuget\\packages\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\slone\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\slone\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
