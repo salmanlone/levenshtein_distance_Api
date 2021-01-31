@@ -13,7 +13,7 @@ namespace AlgorithmApi.Test
 		public void Setup()
 		{
 			_ = new LevenshteinDistanceService();
-			first = "Tariq";
+			first = "Salman";
 			second = "Tariq";
 			levenshteinDistanceService = new LevenshteinDistanceService();
 		}
@@ -22,14 +22,14 @@ namespace AlgorithmApi.Test
 		public void Correct()
 		{
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, second);
-			Assert.AreEqual(result,0);
+			Assert.AreEqual(result, 5);
 		}
 
 		[Test]
 		public void InCorrect()
 		{ 
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, second);
-			Assert.AreNotEqual(result, 5);
+			Assert.AreNotEqual(result, 1);
 		}
 
 		[Test]
