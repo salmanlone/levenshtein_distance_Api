@@ -39,8 +39,6 @@ namespace AlgorithmApi
 			}
 			app.UseSwaggerMiddleware(API_NAME, config);
 
-			app.UseHttpsRedirection();
-
 			app.UseRouting();
 
 			app.UseAuthorization();
