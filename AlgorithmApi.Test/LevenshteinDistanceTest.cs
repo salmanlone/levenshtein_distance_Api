@@ -19,28 +19,28 @@ namespace AlgorithmApi.Test
 		}
 
 		[Test]
-		public void IsReturnCorrectResult()
+		public void IsReturnCorrect()
 		{
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, second);
 			Assert.AreEqual(result,5);
 		}
 
 		[Test]
-		public void IsReturnInCorrectResult()
+		public void IsReturnInCorrect()
 		{ 
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, second);
 			Assert.AreNotEqual(result, 1);
 		}
 
 		[Test]
-		public void IsReturnNegativeResult()
+		public void IsReturnNegativeForFirstInput()
 		{
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance("", second);
 			Assert.Negative(result, "First input is negative");
 		}
 
 		[Test]
-		public void IsReturnNegativeResultAgain()
+		public void IsReturnNegativeForSecondInput()
 		{
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, "");
 			Assert.Negative(result, "First input is negative");
