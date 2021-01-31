@@ -32,7 +32,7 @@ namespace AlgorithmApi.LevenshteinDistance
 			{
 				FirstInput = first,
 				SecondInput = second,
-				Distance = Convert.ToInt32(d[first.Length, second.Length]),
+				Distance = Convert.ToInt32(d[first.Length+1, second.Length+1]),
 				Matrix = d
 			};
 		}
