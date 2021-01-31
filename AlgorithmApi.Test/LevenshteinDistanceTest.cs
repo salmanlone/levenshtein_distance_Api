@@ -13,37 +13,44 @@ namespace AlgorithmApi.Test
 		public void Setup()
 		{
 			_ = new LevenshteinDistanceService();
-			first = "salman";
-			second = "lone";
+			first = "Tariq";
+			second = "Tariq";
 			levenshteinDistanceService = new LevenshteinDistanceService();
 		}
 
 		[Test]
-		public void IsReturnCorrect()
+		public void Correct()
 		{
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, second);
-			Assert.AreEqual(result,5);
+			Assert.AreEqual(result,0);
 		}
 
 		[Test]
-		public void IsReturnInCorrect()
+		public void InCorrect()
 		{ 
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, second);
-			Assert.AreNotEqual(result, 1);
+			Assert.AreNotEqual(result, 5);
 		}
 
 		[Test]
-		public void IsReturnNegativeForFirstInput()
+		public void Negative()
 		{
-			var result = levenshteinDistanceService.ComputeLevenshteinDistance("", second);
-			Assert.Negative(result, "First input is negative");
+			var result = levenshteinDistanceService.ComputeLevenshteinDistance("", "");
+			Assert.Negative(result, "Both inputs are null");
 		}
 
 		[Test]
-		public void IsReturnNegativeForSecondInput()
+		public void FirstInputLength()
 		{
 			var result = levenshteinDistanceService.ComputeLevenshteinDistance(first, "");
-			Assert.Negative(result, "First input is negative");
+			Assert.AreEqual(result, first.Length);
+		}
+
+		[Test]
+		public void SecondInputLength()
+		{
+			var result = levenshteinDistanceService.ComputeLevenshteinDistance("", second);
+			Assert.AreEqual(result, second.Length);
 		}
 	}
 }
